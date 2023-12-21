@@ -1,13 +1,15 @@
-.memory-game {
+
+  
+  .memory-game {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    max-width: 480px; /* Defina um tamanho máximo para evitar que o jogo fique muito largo */
+    max-width: 480px;
     margin: 0 auto;
   }
   
   .memory-card {
-    width: calc(100% - 20px); /* Subtrai a margem para garantir que as cartas se encaixem nas colunas sem causar quebra de linha */
+    width: calc(100% - 20px);
     height: 100px;
     margin: 10px;
     perspective: 1000px;
@@ -46,4 +48,5 @@
     background-color: #2ecc71;
     transform: rotateY(180deg);
   }
+
   
